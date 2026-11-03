@@ -17,3 +17,14 @@ https://osf.io/an7dt/
 
 注意：`SWOW_EN.csv`（138 MB）和 `SWOW_DU.csv`（68 MB）超过 GitHub 单文件 100 MB 限制，
 未包含在本仓库中，请从 SWOW 数据下载页获取：https://smallworldofwords.org/de/project/research
+
+
+
+## 当前进度
+
+| 图 | 状态 |
+|---|---|
+| 图 1 | 已完成，与作者原图逐字一致 |
+| 图 2 | 作者未提供脚本（流程示意图） |
+| 图 3、图 4 | 能生成，聚类生成不一致 |
+| 图 5–8 | 未开始 |
