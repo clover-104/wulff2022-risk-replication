@@ -1,0 +1,33 @@
+# ---- R ----
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+.Renviron.local
+
+# ---- Quarto 渲染中间产物 ----
+/.quarto/
+*_cache/
+*_files/
+*.quarto_ipynb
+
+# ---- 系统文件 ----
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ---- 临时/草稿 ----
+/temp/
+*.tmp
+~$*
+
+# ---- 超大原始文件（超过 GitHub 100 MB 单文件限制，用 .gitignore 挡在外面）----
+# SWOW_EN.csv 137 MB、SWOW_DU.csv 等，获取方式见 README
+SWOW_EN.csv
+SWOW_DU.csv
+
+# ---- Claude Code 会话日志（含对话内容，不得公开）----
+.claude/
+
+# ---- 附录词云：3.5 MB，第二轮再决定是否入库 ----
+Output/Appendix/wordclouds_*.png
