@@ -194,7 +194,7 @@ lwd = E(net)$weight**edge_cex[1] / ifelse(within,edge_cex[2],edge_cex[3])
 cl_weight[cl_weight <= 0] = 1
 lyt = igraph::layout_with_fr(net, weights = cl_weight)
 
-png('Output/Figures/Figure3_network.png',width = 2800, height = 2200)
+png('Output/Figures/2_risknet.png',width = 2800, height = 2200)
 
 par(mar=c(0,0,0,0));plot.new();plot.window(xlim=range(lyt[,1]),ylim=range(lyt[,2]))
 
@@ -357,7 +357,7 @@ cols_a = viridis::viridis(5,alpha=.5)[c(3,2,1,5,4)]
 labs = c('Threat','Investment','Analysis','Activity','Fortune')
 
 
-png('Output/Figures/Figure4_wordclouds.png',width=9,height=5.5,res=300,unit='in')
+png('Output/Figures/4_wordclouds.png',width=9,height=5.5,res=300,unit='in')
 
 ord = c(5, 4, 2, 1, 3)
 tab = table(nodes$cluster)

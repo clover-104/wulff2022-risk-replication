@@ -3,7 +3,7 @@
 # 用法：把工作目录设为仓库根目录（wulff2022-risk-replication/），再运行本脚本。
 # 依赖：tidyverse、Rcpp、RcppArmadillo、viridis，以及 Rtools（用于编译 helper.cpp）
 # 输入：Data/InputData/ 下的 swow_risk_associates.csv、word2vec_risk_vectors.txt、sentiment_en.txt
-# 输出：Output/Figures/Figure1_text_vs_association.pdf
+# 输出：Output/Figures/0_text.pdf
 
 library(tidyverse)
 Rcpp::sourceCpp('Scripts/AnalysisScripts/helper.cpp')
@@ -40,7 +40,7 @@ sent['danger']
 
 cols = colorRampPalette(viridis::cividis(11)[c(2,10)])(141)
 
-pdf('Output/Figures/Figure1_text_vs_association.pdf',width = 5,height = 5)
+pdf('Output/Figures/0_text.pdf',width = 5,height = 5)
 par(mar=c(1,0,2,0))
 plot.new()
 plot.window(xlim = c(.5,2.5),ylim = c(.5,10.5))

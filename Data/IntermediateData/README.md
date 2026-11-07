@@ -1,4 +1,5 @@
-read_nodes.csv由代码1_network产生 为307 个一级联想词的节点属性表
+read_nodes.csv由代码1_network(修正)产生 也就是我自己聚类的结果 非作者聚类结果
+为307 个一级联想词的节点属性表
 ## 列说明
 | `asso` | 一级联想词（德语） |
 | `cluster` | Louvain 聚类得到的成分编号（1–5） |

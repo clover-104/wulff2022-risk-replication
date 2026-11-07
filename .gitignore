@@ -4,6 +4,7 @@
 .RData
 .Ruserdata
 .Renviron.local
+.RDataTmp*
 
 # ---- Quarto 渲染中间产物 ----
 /.quarto/
